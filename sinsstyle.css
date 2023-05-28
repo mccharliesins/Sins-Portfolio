@@ -282,5 +282,10 @@ body{
 .heading{
     font-size: 5rem;
     margin-bottom: 3rem;
-    text-align: ;
+    text-align: center;
+}
+
+.about-img{
+    position: relative;
+    
 }
