@@ -307,5 +307,7 @@ span{
 
 .about-img .circle-spin{
     position: absolute;
-    top: ;
+    top: 50%;
+    bottom: 50%;
+    transform
 }
