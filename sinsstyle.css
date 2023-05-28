@@ -318,3 +318,6 @@ span{
     border-left: .2rem solid #081b29;
     border-right: .2rem solid #081b29;
 }
+.about-content{
+    text-align: center;
+}
