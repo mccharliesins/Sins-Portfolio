@@ -269,3 +269,7 @@ body{
         width: 0;
     }
 }
+.about{
+    display: flex;
+    justify-content: ;
+}
