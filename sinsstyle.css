@@ -276,5 +276,9 @@ body{
     flex-direction: column;
     gap: 2rem;
     background: #081b29;
-    padding-bottom: ;
+    padding-bottom: 6rem;
+}
+
+.heading{
+    
 }
