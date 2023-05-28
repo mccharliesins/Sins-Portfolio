@@ -315,6 +315,6 @@ span{
     border-radius: 50%;
     border-top: .2rem solid red;
     border-bottom: .2rem solid red;
-    border-left: .2rem solid red;
-    border-radius: .2rem solid red;
+    border-left: .2rem solid ;
+    border-right: .2rem solid red;
 }
