@@ -335,4 +335,6 @@ span{
     width: 15rem;
 }
 
-.btn-box.btns a::before
+.btn-box.btns a::before{
+    background: #081b29;
+}
