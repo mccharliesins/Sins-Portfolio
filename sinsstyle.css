@@ -295,4 +295,8 @@ body{
     align-items: center;
 }
 
-.about
+.about-img img{
+    width: 90%;
+    border-radius: 50%;
+    
+}
