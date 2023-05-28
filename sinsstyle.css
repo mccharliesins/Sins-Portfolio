@@ -23,10 +23,22 @@ body{
     z-index: 100;
 }
 .logo{
+    position: relative;
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
+}
+.logo::before{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 0.4s;
+    background-color: #081b29;
 }
 .navbar a {
     font-size: 18px;
@@ -52,29 +64,74 @@ body{
 }
 
 .home-content h1{
+    position: relative;
     font-size:56px;
     font-weight:700;
     line-height: 1.2;
 }
-
+.home-content h1::before{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
+    background-color: #081b29;
+}
 .home-content h3{
+    position: relative;
     font-size:32px;
     font-weight:700;
     color:#00abf0;
 }
-
+.home-content h3::before{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+    background-color: #081b29;
+}
 .home-content p{
+    position: relative;
     font-size:16px;
     margin: 20px 0 40px;
 }
-
+.home-content p::before{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.6s;
+    background-color: #081b29;
+}
 .home-content .btn-box{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
 }
-
+.home-content .btn-box::before{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.9s;
+    background-color: #081b29;
+    z-index: 2;
+}
 .btn-box a {
     position: relative;
     display: inline-flex;
@@ -133,6 +190,18 @@ body{
     width: 180px;
     justify-content: space-between;
 }
+.home-socials::before{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 2.5s;
+    background-color: #081b29;
+    z-index: 2;
+}
 
 .home-socials a{
     position: relative;
@@ -181,4 +250,9 @@ body{
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
+}
+@keyframes showRight {
+    100%{
+        width: 0;
+    }
 }
