@@ -300,3 +300,7 @@ body{
     border-radius: 50%;
     border: .2rem solid #00abf0;
 }
+
+span{
+    color: #00abf0;
+}
