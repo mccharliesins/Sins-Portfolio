@@ -334,3 +334,5 @@ span{
     display: inline-block;
     width: 15rem;
 }
+
+.btn-box.btns a::before
