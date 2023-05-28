@@ -330,4 +330,7 @@ span{
     margin: 2rem 0 3rem;
 }
 
-.btn-box
+.btn-box.btns{
+    display: inline-block;
+    width: 15rem;
+}
